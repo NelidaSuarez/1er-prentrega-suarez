@@ -1,4 +1,4 @@
-var numero = prompt("Por favor, ingresa un número:");
+let numero = prompt("Por favor, ingresa un número:");
 
 
 if (numero > 0) {
@@ -48,8 +48,8 @@ for (let i = 1; i <= 3; i++) {
 
 
 
-var suma = 0;
-var numero;
+let suma = 0;
+
 
 do {
   numero = parseFloat(prompt("Ingresa un número (ingresa un número negativo para detenerse):"));
