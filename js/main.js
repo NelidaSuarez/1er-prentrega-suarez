@@ -1,5 +1,31 @@
-let numero = prompt("Por favor, ingresa un número:");
 
+function saludarUsuario() {
+  let nombre;
+  let mensaje;
+
+  do {
+    nombre = prompt("Por favor, ingresa tu nombre:");
+    if (nombre) {
+      mensaje = "¡Hola, " + nombre + "! Bienvenido a nuestro sitio.";
+    } else {
+      mensaje = "No ingresaste un nombre. Por favor, intenta de nuevo.";
+    }
+    alert(mensaje);
+  } while (!nombre);
+
+  return mensaje;
+}
+
+let mensajePersonalizado = saludarUsuario();
+alert(mensajePersonalizado);
+
+
+
+
+
+
+
+let numero = prompt("Por favor , ingresa un número:");
 
 if (numero > 0) {
   alert("El número es positivo");
@@ -32,15 +58,15 @@ alert("En el rango del " + minimo + " al " + maximo + " hay " + contadorPares + 
 
 
 for (let i = 1; i <= 3; i++) {
-    alert(i);
-  }
+  alert(i);
+}
 
 
-  let n = 1;
-  while (n <= 5) {
-    alert(n);
-    n++;
-  }
+let n = 1;
+while (n <= 5) {
+  alert(n);
+  n++;
+}
 
 
 
@@ -53,9 +79,9 @@ let suma = 0;
 
 do {
   numero = parseFloat(prompt("Ingresa un número (ingresa un número negativo para detenerse):"));
-  if (!isNaN(numero)) {  
+  if (!isNaN(numero)) {
     if (numero >= 0) {
-      suma += numero;  
+      suma += numero;
     }
   }
 } while (numero >= 0);
