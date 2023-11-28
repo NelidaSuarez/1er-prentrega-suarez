@@ -6,79 +6,21 @@ function saludarUsuario() {
   do {
     nombre = prompt("Por favor, ingresa tu nombre:");
     if (nombre) {
-      mensaje = "¡Hola, " + nombre + "! Bienvenido a nuestro sitio.";
+      mensaje = "¡Hola, " + nombre + "! Bienvenido a StarShop.";
     } else {
       mensaje = "No ingresaste un nombre. Por favor, intenta de nuevo.";
     }
     alert(mensaje);
   } while (!nombre);
-
   return mensaje;
 }
-
 let mensajePersonalizado = saludarUsuario();
 alert(mensajePersonalizado);
-
-
-
-
-
-
-
-let numero = prompt("Por favor , ingresa un número:");
-
-if (numero > 0) {
-  alert("El número es positivo");
-} else if (numero < 0) {
-  alert("El número es negativo");
-} else {
-  alert("El número es cero");
-}
-
-
-
-
-
-
-
-let minimo = parseInt(prompt("Ingresa el número mínimo:"));
-let maximo = parseInt(prompt("Ingresa el número máximo:"));
-let contadorPares = 0;
-for (let i = minimo; i <= maximo; i++) {
-  if (i % 2 === 0) {
-    contadorPares++;
-  }
-}
-alert("En el rango del " + minimo + " al " + maximo + " hay " + contadorPares + " números pares.");
-
-
-
-
-
-
-
-for (let i = 1; i <= 3; i++) {
-  alert(i);
-}
-
-
-let n = 1;
-while (n <= 5) {
-  alert(n);
-  n++;
-}
-
-
-
-
-
-
-
 let suma = 0;
 
 
 do {
-  numero = parseFloat(prompt("Ingresa un número (ingresa un número negativo para detenerse):"));
+  numero = parseFloat(prompt("Ingresa el monto de los productos para saber cuanto necesitas! (ingresa un número negativo para detenerse):"));
   if (!isNaN(numero)) {
     if (numero >= 0) {
       suma += numero;
@@ -86,4 +28,38 @@ do {
   }
 } while (numero >= 0);
 
-alert("La suma de los números ingresados es: " + suma);
+alert("El monto necesario es: " + suma);
+
+
+
+
+
+
+
+class Producto{
+  constructor(nombre, precio, img) {
+    this.clase = nombre;
+    this.precio = precio;
+    this.img = img;
+  }
+
+}
+
+const ABRIGO01 = new Producto("campera01", 3000, "https://acdn.mitiendanube.com/stores/001/069/443/products/perr_inv21_t2_dic0550_macbeth-6715b387b2b366458916940927411392-480-0.JPG");
+const ABRIGO02 = new Producto("campera02", 7000, "https://acdn.mitiendanube.com/stores/001/069/443/products/perrinv23_tanda2_25778_kiwik_off_white-b17dbdbe27dc7b7ec516956869993128-480-0.jpg");
+const ABRIGO03 = new Producto("campera03", 12000,"https://acdn.mitiendanube.com/stores/001/069/443/products/inv23_19650_frimley_vino-0373277559ccf89c9516838080678603-480-0.jpg");
+
+
+const ArrayProductos = [ABRIGO01, ABRIGO02, ABRIGO03, ];
+
+ArrayProductos.forEach(Producto =>{
+  let div = document.createElement("div");
+  div.className = "card";
+  div.innerHTML = `
+                  <p>nombre ${Producto.clase} </p>
+                  <p>precio ${Producto.precio} </p>
+                  <img src= "${Producto.img}"/>
+                  <button> Agregar al carrito </button>
+    ` 
+    contenedorProductos.appendChild(div);
+})
