@@ -64,3 +64,27 @@ Productos.forEach(Producto =>{
     contenedorProductos.appendChild(div);
 })
 
+
+
+
+let productos = [
+  {itemId:"campera01", precio: 3000},
+  {itemId:"campera02", precio: 7000},
+  {itemId:"campera03", precio: 12000},
+];
+
+let precioMinimo = parseFloat(prompt("Cuanto podés gastar?"));
+
+if(isNaN(precioMinimo)){
+  console.log("por favor ingresa numeros")
+}else{
+  let precioFiltrados = productos.filter(function(producto){
+    return producto.precio <= precioMinimo;
+  });
+  alert("los productos que podes comprar son:", precioFiltrados)
+}
+
+
+
+
+
