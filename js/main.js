@@ -50,9 +50,9 @@ const ABRIGO02 = new Producto("campera02", 7000, "https://acdn.mitiendanube.com/
 const ABRIGO03 = new Producto("campera03", 12000,"https://acdn.mitiendanube.com/stores/001/069/443/products/inv23_19650_frimley_vino-0373277559ccf89c9516838080678603-480-0.jpg");
 
 
-const ArrayProductos = [ABRIGO01, ABRIGO02, ABRIGO03, ];
+const Productos = [ABRIGO01, ABRIGO02, ABRIGO03, ];
 
-ArrayProductos.forEach(Producto =>{
+Productos.forEach(Producto =>{
   let div = document.createElement("div");
   div.className = "card";
   div.innerHTML = `
@@ -63,3 +63,4 @@ ArrayProductos.forEach(Producto =>{
     ` 
     contenedorProductos.appendChild(div);
 })
+
