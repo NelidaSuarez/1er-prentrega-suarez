@@ -1,4 +1,4 @@
-
+//funcion (mensaje de bienvenida)
 function saludarUsuario() {
   let nombre;
   let mensaje;
@@ -16,9 +16,10 @@ function saludarUsuario() {
 }
 let mensajePersonalizado = saludarUsuario();
 alert(mensajePersonalizado);
+
+
+//suma(en la entrega q viene no estará)(SACAR)
 let suma = 0;
-
-
 do {
   numero = parseFloat(prompt("Ingresa el monto de los productos para saber cuanto necesitas! (ingresa un número negativo para detenerse):"));
   if (!isNaN(numero)) {
@@ -27,13 +28,12 @@ do {
     }
   }
 } while (numero >= 0);
-
 alert("El monto necesario es: " + suma);
 
 
 
 
-
+//objeto/arrray
 
 
 class Producto{
@@ -66,7 +66,7 @@ Productos.forEach(Producto =>{
 
 
 
-
+//filter
 let productos = [
   {itemId:"campera01", precio: 3000},
   {itemId:"campera02", precio: 7000},
@@ -81,10 +81,41 @@ if(isNaN(precioMinimo)){
   let precioFiltrados = productos.filter(function(producto){
     return producto.precio <= precioMinimo;
   });
-  alert("los productos que podes comprar son:", precioFiltrados)
+  console.log("los productos que podes comprar son:", precioFiltrados)
+}
+//busqueda 
+
+let mayorPrecio = productos.find(function(producto){
+  return producto.precio > 7000;
+});
+console.log(mayorPrecio);
+
+
+//aumentos a futuro con intervalos de 7 dias
+
+const PORCENTAJE_AUMENTO = 10;
+const INTERVALO_DIAS = 7;
+let ultimoAumento = new Date();
+
+function aumentarPrecio() {
+  let fechaActual = new Date();
+  let diasPasados = Math.floor((fechaActual - ultimoAumento) / (1000 * 60 * 60 * 24)); 
+
+  if (diasPasados >= INTERVALO_DIAS) {
+    productos.forEach((producto) => {
+      let aumento = producto.precio * (PORCENTAJE_AUMENTO / 100); 
+      producto.precio += aumento; 
+    });
+
+    console.log("Precio aumentado en un " + PORCENTAJE_AUMENTO + "%");
+    ultimoAumento = fechaActual; 
+  }
+
+  setTimeout(aumentarPrecio, INTERVALO_DIAS * 24 * 60 * 60 * 1000); 
 }
 
+aumentarPrecio(); 
 
 
 
-
+//DEBO ARREGLAR EL MENU.JS 
