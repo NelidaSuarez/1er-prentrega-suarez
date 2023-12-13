@@ -1,0 +1,182 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo 01",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/069/443/products/perr_inv21_t2_dic0550_macbeth-6715b387b2b366458916940927411392-480-0.JPG",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo 02",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/069/443/products/perrinv23_tanda2_25778_kiwik_off_white-b17dbdbe27dc7b7ec516956869993128-480-0.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo 03",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_726481-MLA72229124405_102023-O.webp",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo 04",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_814393-MLA72417599726_102023-O.webp",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 17000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo 05",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_842205-MLA51744890630_092022-O.webp",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta 01",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_836746-MLA72906306385_112023-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 7500
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta 02",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_893891-MLA70375297126_072023-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta 03",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_602304-MLA43232273945_082020-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta 04",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_936073-MLA72513627062_102023-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta 05",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_884456-MLA54814743253_042023-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta 06",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_715100-MLA69511936027_052023-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta 07",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_963776-MLA44872172484_022021-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 5000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta 08",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_762603-MLA72484585209_102023-O.webp",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Pantalón 01",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_998533-MLA52170707630_102022-O.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 18000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón 02",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_747451-MLA70437797525_072023-O.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón 03",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_947865-MLA71253203991_082023-O.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 16000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón 04",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_664318-MLA71441220601_082023-O.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón 05",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_941167-MLA53708267833_022023-O.webp",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 19000
+    }
+]
