@@ -26,7 +26,7 @@ function login(){
         localStorage.setItem('password',password);
 
         alert("Bienvenido")
-        window.location.href = 'index.html';
+        window.location.href = 'inicio.html';
     }else{
         alert ('Los datos no son correctos')
     }
