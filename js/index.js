@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 let productos = [];
 
 fetch("./js/productos.json")

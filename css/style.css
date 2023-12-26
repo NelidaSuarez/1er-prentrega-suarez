@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --clr-main: #257165;
+    --clr-main-light: #14271f;
+    --clr-white: #ececec;
+    --clr-light: #b7e2ce;
+    --clr-half: #1e4b2f;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +20,58 @@ h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
     margin: 0;
     padding: 0;
 }
+
+.body-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--clr-main);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conteiner-login{
+    width: 250px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    margin-bottom: 8px;
+    color: var(--clr-white);
+
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.boton-login{
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: var(--clr-main);
+}
+.boton-login:hover{
+    background-color: var(--clr-main);
+    border-radius: var(--clr-white);
+    color: var(--clr-white);
+}
+.conteiner-password{
+    position: relative;
+}
+.toggle-password{
+    position: absolute;
+    right: 10px;
+    }
+
+
+
+
 
 ul {
     list-style-type: none;
@@ -177,7 +240,6 @@ main {
 }
 
 
-/** CARRITO **/
 
 .contenedor-carrito {
     display: flex;
@@ -200,7 +262,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--clr-gray);
+    background-color: var(--clr-light);
     color: var(--clr-main);
     padding: .5rem;
     padding-right: 1.5rem;
@@ -219,7 +281,7 @@ main {
 .carrito-producto-eliminar {
     border: 0;
     background-color: transparent;
-    color: var(--clr-red);
+    color: var(--clr-half);
     cursor: pointer;
 }
 
@@ -230,7 +292,7 @@ main {
 
 .carrito-acciones-vaciar {
     border: 0;
-    background-color: var(--clr-gray);
+    background-color: var(--clr-light);
     padding: 1rem;
     border-radius: 1rem;
     color: var(--clr-main);
@@ -244,7 +306,7 @@ main {
 
 .carrito-acciones-total {
     display: flex;
-    background-color: var(--clr-gray);
+    background-color: var(--clr-light);
     padding: 1rem;
     color: var(--clr-main);
     text-transform: uppercase;
@@ -263,6 +325,7 @@ main {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
+
 
 .header-mobile {
     display: none;
