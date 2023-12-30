@@ -1,3 +1,9 @@
+# Proyecto de JavaScript, Coderhouse 
+
+
+
+#### Es un E-comerce de ropa para mujeres.
+
 [![](https://www.foromarketing.com/wp-content/uploads/2018/03/La-moda-l%C3%ADquida.png)](http://https://www.foromarketing.com/wp-content/uploads/2018/03/La-moda-l%C3%ADquida.png)
 
 
@@ -16,3 +22,4 @@ Herramientas aplicadas:
 			
 
 Este proyecto pertenece a  Nélida Suárez. 
+
